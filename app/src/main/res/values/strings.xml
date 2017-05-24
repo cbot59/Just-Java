@@ -1,0 +1,27 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="false">Just Java</string>
+
+    <!--Text display on TextView-->
+    <string name="hint_name">Name</string>
+    <string name="toppings" translatable="false">Toppings</string>
+    <string name="whipCream">Whipped Cream</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="quantity">Quantity</string>
+    <string name="order">Order</string>
+
+    <!-- Intent email -->
+    <string name="email_subject">[Just Java] Order for <xliff:g id="name">%s</xliff:g></string>
+
+    <!--Order summary-->
+    <string name="order_summary_header">Here is for you</string>
+    <string name="order_summary_name">Name: <xliff:g id="name">%s</xliff:g></string>
+    <string name="order_summary_whipCream">Add whipped cream? <xliff:g id="addWhippedCream">%s</xliff:g></string>
+    <string name="order_summary_chocolate">Add chocolate? <xliff:g id="addChocolate">%s</xliff:g></string>
+    <string name="order_summary_quantity">Quantity: <xliff:g id="quantity">%d</xliff:g></string>
+    <string name="order_summary_total">Total: <xliff:g id="total">%s</xliff:g></string>
+
+    <string name="thanks">Thank you!</string>
+
+    <string name="TRUE">Yes</string>
+    <string name="FALSE">No</string>
+</resources>
